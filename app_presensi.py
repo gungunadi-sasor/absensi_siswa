@@ -21,7 +21,7 @@ RADIUS_TOLERANSI_METER = 150 # Jarak toleransi dari titik sekolah (meter)
 # Batasan Waktu Absen
 JAM_BUKA_ABSEN = time(6, 0)   # 06:00 WIB
 JAM_BATAS_TEPAT = time(7, 15) # 07:15 WIB
-JAM_BATAS_AKHIR = time(08, 00)  # 08:00 WIB
+JAM_BATAS_AKHIR = time(8, 0)  # 08:00 WIB
 
 FILE_DATABASE_SISWA = "data_presensi_siswa.xlsx"
 FILE_EXCEL_REKAP = "Rekap_Presensi_Siswa.xlsx"
