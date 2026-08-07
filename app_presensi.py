@@ -10,10 +10,7 @@ st.set_page_config(
     page_icon="📍",
     layout="centered"
 )
-# Menentukan zona waktu Asia/Jakarta (WIB)
-zona_wib = pytz.timezone('Asia/Jakarta')
-waktu_sekarang = datetime.now(zona_wib)
-jam_sekarang = waktu_sekarang.time()
+
 # ---------------------------------------------------------
 # 1. KONFIGURASI LOKASI & WAKTU (SMPN 1 Soreang)
 # ---------------------------------------------------------
@@ -51,7 +48,8 @@ st.title("📍 Presensi Siswa SaSoR")
 st.caption("Sistem Absensi Online Berbasis GPS & Jam Masuk Sekolah")
 st.markdown("---")
 
-waktu_sekarang = datetime.now()
+zona_wib = pytz.timezone('Asia/Jakarta')
+waktu_sekarang = datetime.now(zona_wib)
 jam_sekarang = waktu_sekarang.time()
 
 st.info(f"🕒 **Waktu:** {waktu_sekarang.strftime('%H:%M:%S WIB')} | **Tanggal:** {waktu_sekarang.strftime('%d-%m-%Y')}")
