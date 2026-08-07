@@ -110,7 +110,7 @@ with st.form("form_login"):
     with col_lon:
         lon_user = st.number_input("Longitude", value=0.0, format="%.7f")
 
-    btn_presensi = st.form_submit_button("🚀 Kirim Presensi", type="primary")
+    btn_presensi = st.form_submit_button("Kirim ", type="primary")
 
 # ---------------------------------------------------------
 # 4. PROSES VALIDASI
