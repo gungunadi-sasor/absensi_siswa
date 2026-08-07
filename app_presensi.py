@@ -6,8 +6,8 @@ import math
 import os
 
 st.set_page_config(
-    page_title="Presensi Siswa SaSoR",
-    page_icon="📍",
+    page_title="DAFTAR HADIR SISWA SMPN 1 SOREANG",
+    page_icon="",
     layout="centered"
 )
 
