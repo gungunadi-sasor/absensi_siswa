@@ -6,7 +6,7 @@ import math
 import os
 
 st.set_page_config(
-    page_title="DAFTAR HADIR SISWA SMPN 1 SOREANG",
+    page_title="DHE SISWA SMPN 1 SOREANG",
     page_icon="",
     layout="centered"
 )
@@ -44,7 +44,7 @@ def hitung_jarak_meter(lat1, lon1, lat2, lon2):
 # ---------------------------------------------------------
 # 3. INTERFACE APLIKASI
 # ---------------------------------------------------------
-st.title("📍 Presensi Siswa SaSoR")
+st.title("DAFTAR HADIR SISWA SMPN 1 SOREANG")
 st.caption("Sistem Absensi Online Berbasis GPS & Jam Masuk Sekolah")
 st.markdown("---")
 
