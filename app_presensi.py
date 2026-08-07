@@ -98,7 +98,7 @@ with st.form("form_login"):
         }
         </script>
         <button type="button" onclick="getLocation()" style="padding: 10px 15px; background-color: #1E3A8A; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
-            📍 Deteksi Lokasi Saya (GPS)
+            Lokasi Saya
         </button>
         <p id="gps_status" style="margin-top: 8px; color: #555; font-size: 14px;">Klik tombol di atas untuk menyambungkan GPS HP.</p>
     """
