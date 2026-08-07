@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, time
+import pytz
 import math
 import os
 
@@ -9,7 +10,10 @@ st.set_page_config(
     page_icon="📍",
     layout="centered"
 )
-
+# Menentukan zona waktu Asia/Jakarta (WIB)
+zona_wib = pytz.timezone('Asia/Jakarta')
+waktu_sekarang = datetime.now(zona_wib)
+jam_sekarang = waktu_sekarang.time()
 # ---------------------------------------------------------
 # 1. KONFIGURASI LOKASI & WAKTU (SMPN 1 Soreang)
 # ---------------------------------------------------------
