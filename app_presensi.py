@@ -45,7 +45,7 @@ def hitung_jarak_meter(lat1, lon1, lat2, lon2):
 # 3. INTERFACE APLIKASI
 # ---------------------------------------------------------
 st.title("DAFTAR HADIR SISWA")
-st.caption("Sistem Absensi Online Berbasis GPS & Jam Masuk Sekolah")
+st.caption("Absensi Online SMP Negeri 1 Soreang ")
 st.markdown("---")
 
 zona_wib = pytz.timezone('Asia/Jakarta')
